@@ -1,0 +1,27 @@
+.aside {
+	font-size: 0.75rem;
+	width: 20%;
+	margin-left: 4rem;
+	padding-left: 4.5rem;
+	border-left: 1px solid #d9e1ec;
+	height: inherit;
+	align-self: stretch;
+
+	.top-launches {
+		.top-launches-heading {
+			text-transform: uppercase;
+			margin-bottom: 1.25rem;
+		}
+		.launches-list {
+			.launch {
+				font-weight: 500;
+				margin-bottom: 0.5rem;
+				cursor: pointer;
+
+				&:hover {
+					color: #e12e0d;
+				}
+			}
+		}
+	}
+}

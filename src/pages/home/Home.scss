@@ -1,0 +1,45 @@
+$text-color: #4b587c;
+
+.home-container {
+	text-align: center;
+	width: 100%;
+	max-width: 900px;
+}
+
+.heading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin: 0 0 1.5rem 0;
+	padding: 0 0 1rem 0;
+	border-bottom: 1px solid #d9e1ec;
+
+	.title {
+		font-weight: 500;
+		font-size: 1.5rem;
+		flex: 1 0;
+		text-align: left;
+	}
+	.button-group {
+		display: flex;
+		align-items: center;
+		gap: 7px;
+
+		.category-btn {
+			text-decoration: none;
+			color: $text-color;
+			font-size: 0.85rem;
+			font-weight: 500;
+			cursor: pointer;
+		}
+
+		.active {
+			color: #e12e0d;
+		}
+
+		span {
+			font-size: 0.75rem;
+		}
+	}
+}
